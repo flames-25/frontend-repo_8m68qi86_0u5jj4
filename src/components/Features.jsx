@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Calendar, ChartBar, Camera, Cpu } from 'lucide-react';
+import { Shield, Calendar, BarChart3, Camera, Cpu } from 'lucide-react';
 
 const features = [
   {
@@ -9,7 +9,7 @@ const features = [
   },
   { icon: Shield, title: 'Compliance First', desc: 'HIPAA-ready, role-based access, and audit trails baked in by default.' },
   { icon: Camera, title: 'Imaging & Charting', desc: 'Intraoral imaging, perio charts, and treatment plans — all in one place.' },
-  { icon: ChartBar, title: 'Analytics', desc: 'Track production, collections, and case acceptance with visual dashboards.' },
+  { icon: BarChart3, title: 'Analytics', desc: 'Track production, collections, and case acceptance with visual dashboards.' },
   { icon: Cpu, title: 'AI Assist', desc: 'Automate notes, coding suggestions, and identify patterns in patient history.' },
 ];
 
